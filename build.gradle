@@ -4,6 +4,7 @@ plugins {
 
     // Apply the application plugin to add support for building a CLI application.
     id 'application'
+	id "com.praqma.demo.DemoPlugin" version "1.0.1"
 }
 
 repositories {
@@ -21,7 +22,7 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:28.1-jre'
-    implementation 'org.mzae:mzae:1.0.0'
+    //implementation 'org.mzae:mzae:1.0.0'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
