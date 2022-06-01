@@ -15,11 +15,11 @@
 	},
 	"hostRules": [
 		{
-			"matchHost": "https://maven.pkg.github.com/sultan-qa/gradle-github-private-package",
+			"matchHost": "https://maven.pkg.github.com/sultan-qa/_",
 			"hostType": "maven",
 			"userName": "muhammadaews",
 			"encrypted": {
-				"token": "wcBMA8xOaBJvzJNbAQf+IVuBTIeLyzU/PwI/kqfXwOrWFSSYEEJz7YGVeHoCHiFCZ3cVGUVjrf20XsGABTVKi916jXTx4MtfA/UlWEwhR+Bg8bh9fl0RBUHNGlpBw1FDuLWBtguJ3GWfde8qJWP1b8ZlbWGE4BN7JAcS8nD3M3ab0YFkAKCuASS6ERr4W8ppMnMIi3p4G+maAq1zSuuIQsrgE6YpoVYvCH8w7K5L62sCaiO+zPZoGOR0YrehfRhS3R21dCUnRZfebmWT0h31TIXXfZ2V2IoXHckp6CQiaI+9AqbwL1fXxVxKahBZok2ZkOsppVOYcbwmhCDVpn01b+b1lFzMNHk26smNECuH5dJ4AVBlYdMI2F/r4xM4RpxvIO9GarlLn5OoGpdi/Ur6/stUva7sBaVLXOsnb2MBurm7vfr+JtREkEiw6pw/Pjtzs1Jw5+13f5zwZeOTrOb73nPeiQQF3XeCeyDaB1Ep8uCpk4ElBE24Goz+o70SnzF3Uszuq4KrAgdK"
+				"token": "wcBMA8xOaBJvzJNbAQf9G/bwVjFqs1jOCfBZkg9lcILnISGV01C0I/0q4aIiWF/9jzLK7TBADmi89AE8oHHbCSGwXUFc9JwtQ7OUCsQNj0hHg2N0ZyqGvoxkcOY2J73w1XKf4OiAuIUklYo3xStwU7zA236Z37hJs27+wBCLgDSZ8/ArV9pUHLafbWF8KPiA6j+PF0du2fVdeExVvfyNe+/aC6s9ZsvcYp/kFl1nDg9rshM/jbfUBzToEWPG/two4NDD3iVGifs1GuzQJMZMUV0H2/lS7srhlLlPcLPNefx/ZO/v2wc6yBrNxHEb2XrPj4a/XOWi3+MebkBhN1+ZwPXSn+6G80ShIrEtdcoLLdKDAWpVc13tEsvB5PzIFu18xoD51WlI74X1SlKCH7Xd3QPHaBT0kwLYfpOBfZXMl24Nf+L0oxHUt2U/E7pBOsih2bfA5B6VwCQRItPbqAkY+ndTvaEdrf6B50zh8PEU3qm0cU8KFPLb5HfMiLhOcspdPchDYLVAVs5rPcQK807GhzTytZc"
 			}
 		}
 	],
