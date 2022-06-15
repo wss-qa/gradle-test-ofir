@@ -1,0 +1,46 @@
+   // Spring Cloud kubernetes configurations
+    //implementation 'org.springframework.cloud:spring-cloud-starter-kubernetes-fabric8-config:2.1.1'
+
+    // added for OpenAPI
+    //compileOnly 'io.swagger:swagger-annotations:1.6.5'
+    //compileOnly "javax.validation:validation-api:2.0.1.Final"
+    //compileOnly 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.1'
+
+    implementation "io.grpc:grpc-core:${grpcVersion}"
+    implementation "io.grpc:grpc-protobuf:${grpcVersion}"
+    implementation "io.grpc:grpc-stub:${grpcVersion}"
+
+    // OpenTelemetry for tracing auto-instrumentation and manual tracing support
+    //implementation "io.opentelemetry:opentelemetry-api:1.11.0"
+    //implementation "io.opentelemetry:opentelemetry-extension-annotations:1.11.0"
+
+    // JUnit 5 Runtime dependencies
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+
+    // unit test mocking
+    testImplementation 'org.mockito:mockito-core:4.3.1'
+
+    // DB initialization and migration
+    //implementation "org.flywaydb:flyway-core"
+    // PostgreSQL
+    //runtimeOnly "org.postgresql:postgresql:42.3.3"
+
+
+
+
+    plugins {
+    //id 'java'
+    //id "eclipse"
+    //id "org.jetbrains.gradle.plugin.idea-ext" version "0.9"
+    //id "jacoco"
+   // id "checkstyle"
+    //id "java-library"
+    //id "com.google.protobuf" version "0.8.16"
+    id "application"
+    //id 'org.unbroken-dome.test-sets' version '4.0.0'
+   // id 'org.barfuin.gradle.jacocolog' version '1.2.3'
+   // id 'com.avast.gradle.docker-compose' version '0.14.0'
+    //id "io.freefair.lombok" version "6.4.3"
+    id "com.praqma.demo.DemoPlugin" version "1.0.1"
+}
