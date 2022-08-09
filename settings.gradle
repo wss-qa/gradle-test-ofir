@@ -19,6 +19,8 @@ pluginManagement {
 				}
 		}
         }
+	mavenlocal()
+	
     }
 
 rootProject.name = 'client-repo'
