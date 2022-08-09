@@ -1,13 +1,13 @@
 plugins {
     id 'java'
     id 'application'
-	id "com.praqma.demo.DemoPlugin" version "1.0.1"
+	id "ofir.greeting" version "1.0.0"
 }
 
 repositories {
        maven {
         name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/sultan-qa/_")
+        url = uri("https://maven.pkg.github.com/ofirghc/_")
         credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
                 password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
@@ -18,11 +18,8 @@ repositories {
 def prvtDepVer = "1.0.1"
 dependencies {
         // private dependencies
-    implementation ("org.mzae:mzae:${prvtDepVer}")
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:28.1-jre'
-    //implementation 'org.mzae:mzae:1.0.0'
-
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
