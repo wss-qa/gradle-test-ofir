@@ -1,5 +1,18 @@
 
-
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/sultan-qa/_"
+            credentials {
+					username = System.getenv("GITHUB_USERNAME")
+					password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+        mavenLocal()
+    }
+}
 
 dependencyResolutionManagement  {
 repositories {
@@ -18,19 +31,6 @@ repositories {
 }
 
 
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        maven {
-            name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/sultan-qa/_"
-            credentials {
-					username = System.getenv("GITHUB_USERNAME")
-					password = System.getenv("GITHUB_TOKEN")
-            }
-        }
-        mavenLocal()
-    }
-}
+
 
 rootProject.name = 'client-repo'
