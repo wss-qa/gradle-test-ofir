@@ -1,5 +1,5 @@
 
-dependencyResolutionManagement {
+dependencyResolutionManagement  {
 repositories {
         gradlePluginPortal()
         maven {
