@@ -1,5 +1,5 @@
   {    
-	"scanSettings": {
+	"scanSettings": { 
 		"configMode": "AUTO",
 		"configExternalURL": "",
 		"projectToken": "",
@@ -20,6 +20,7 @@
 			"userName": "ofirghc",
 			"encrypted": {
 				"token": "wcBMA90FtVIhcznKAQf/fVWsKNtzcLlUqTbW1GwsFQyIys8Xu4181ptU/Qx2Oqryb60e0NJ+xzoY4m6yIou0pj9pGFdmpt/OtPLKyaz/EUISa/DbfvwpZBCu1Tfd5QuPBIDQNG0k4hThQZqDiuXukdN6sMrhuxv332j7dMDDEqglL9T1P+pZ9kRUIrOEc6z6DVKudRF3Bq00Pj4Zce7tasB5vQzlxPWUY96KhOfL3wFch/BAODV9XmN9iF9Dl/jTBKWfYkP/b0wjym6vATAyXPLXmkEYN8XzGOdjaHJEX4gU7doAa3hLgbzeSO0GC5qFj/mkq74aU1jGIarGjgHQPIGWdZ6UYeAwj2kWAhzCXdJ2Aeyw99EtGmR5pip8lEhumHrhT/Kl46c1DTll2i67usZo7y5bESWXeuGE0CQvdNbmFKY9rnYXPeDU4xkYsoH3fBNkpv2lpAhCyPXlfIKskt5JihtIsdHtrpqUF0sMAQRIVspEdzQPFPbbfz1g2HJtsZhPZoXg+A"
+		}
 		}
 	],
 	"remediateSettings": {
