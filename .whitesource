@@ -15,12 +15,11 @@
 	},
 	"hostRules": [
 		{
-			"matchHost": "https://maven.pkg.github.com/sultan-qa/_",
+			"matchHost": "https://maven.pkg.github.com/ofirghc/_",
 			"hostType": "maven",
-			"userName": "muhammadaews",
+			"userName": "ofirghc",
 			"encrypted": {
-				"token": "wcBMA90FtVIhcznKAQgAsec5oVR1+CiSqlMv/hbbq7CO5CRGfAFcK228l3UewkWFUtnWQ6z5QOi2WzKjhahbUJPXqeCQKec+c6Eb+axLuRSfeJ3drV5DxqCXlAEQDdacyJii+VW50D4cQXvbiY/JrDrs3cQJtDtg6h8DnesESNEHSJA3ihE55ry9uC7Fj32EcJMv1sI+LSqm4cxhiHc7KAW0/Y5NWlAIAJC19pBVtw89EwkWng7jOzKhc1PInRM1FdhI7JRuOfZ2LL8KD4BMwEvnMn3riNk5wygKGtkjksDPLtO5PviVUe5vGCkzw66IOgZwUVjFL7nB4fwylGfWg+0xACOLcJCSxBdy88/iANJ2AS/wVCpmqNEEG/GCaAMxzxARas1RTmQq3wSLi/ne65bmOnJqcgUrkCE6E37Pw5cN1BnsuIIt2HieyrbxxyqMMmoKYQbNp/kQLJOPC3x5pAJIv5RKPFe0ZEfzHqbjukwKS9wnK+Co559ztvvtN2i8qct9EOONTg"
-			}
+				"token": "wcBMA90FtVIhcznKAQf/fVWsKNtzcLlUqTbW1GwsFQyIys8Xu4181ptU/Qx2Oqryb60e0NJ+xzoY4m6yIou0pj9pGFdmpt/OtPLKyaz/EUISa/DbfvwpZBCu1Tfd5QuPBIDQNG0k4hThQZqDiuXukdN6sMrhuxv332j7dMDDEqglL9T1P+pZ9kRUIrOEc6z6DVKudRF3Bq00Pj4Zce7tasB5vQzlxPWUY96KhOfL3wFch/BAODV9XmN9iF9Dl/jTBKWfYkP/b0wjym6vATAyXPLXmkEYN8XzGOdjaHJEX4gU7doAa3hLgbzeSO0GC5qFj/mkq74aU1jGIarGjgHQPIGWdZ6UYeAwj2kWAhzCXdJ2Aeyw99EtGmR5pip8lEhumHrhT/Kl46c1DTll2i67usZo7y5bESWXeuGE0CQvdNbmFKY9rnYXPeDU4xkYsoH3fBNkpv2lpAhCyPXlfIKskt5JihtIsdHtrpqUF0sMAQRIVspEdzQPFPbbfz1g2HJtsZhPZoXg+A"
 		}
 	],
 	"remediateSettings": {
