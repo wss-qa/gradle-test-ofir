@@ -18,8 +18,12 @@ pluginManagement {
 					password = System.getenv("GITHUB_TOKEN")
 				}
 		}
+		mavenlocal()	
         }
-	mavenlocal()
+	
+	
+	
+	//blah 
 	
     }
 
