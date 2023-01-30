@@ -1,9 +1,9 @@
-{ 
-	"scanSettings": {
-		"configMode": "AUTO",
-		"configExternalURL": "",
-		"projectToken": "",
-		"baseBranches": [] 
+  {             
+	"scanSettings": { 
+		"configMode": "AUTO",  
+		"configExternalURL": "",   
+		"projectToken": "", 
+		"baseBranches": []
 	},
 	"checkRunSettings": {
 		"vulnerableCheckRunConclusionLevel": "failure",
@@ -11,16 +11,16 @@
 	},
 	"issueSettings": {
 		"minSeverityLevel": "LOW",
-		"issueType": "DEPENDENCY"
+		"issueType": "DEPENDENCY" 
 	},
 	"hostRules": [
 		{
-			"matchHost": "https://maven.pkg.github.com/sultan-qa/_",
+			"matchHost": "https://maven.pkg.github.com/ofirghc/_",
 			"hostType": "maven",
-			"userName": "muhammadaews",
+			"userName": "ofirghc",
 			"encrypted": {
-				"token": "wcBMA90FtVIhcznKAQgAh27maZFUV1uZKG4ur441v7NldimvpzR2fAEG5jnslsTeHI+EofZeF7sXhZVN1aOQ/yl/tQKWctBpTx1RrajFFuG0Jl9vfv+q5DAZPLrw2ffXJE2P6GIioJg8ekp1c3IOdc9ySjka7uRyjQRTAi0h8UtooIYgAgvOR14Iuk1Q8aZfuH3c+FzHQHZSPMIrfrwsLGrh5L6DIFSgxtL1WnbG4qo7IAEaBuVOWt+GQy9J9bN+rzPP+dG6k5zlM6armJ/l54BbJ8oUdlQJZmarIvT/eXvjKIWwXvTuk/MoLL0w751NYM/jK8cDvRMLgBE9jx+cFa0ZLisINmCHks/3JmoxR9J2AT/PCf/fdFuIe8eJlCeotO2qyv01RTqxAfvNvVl7W8fBLMwQOzIHnjHhVqosvK1mbohY7pQ5j3R55g78e3X5Oof221Zw58oWjkDL4lHT18nameNfHF6mX0XOpscNBfyI1b0Zow5Z4TiG3WL2fBx1bBrIwZCoDQ"
-			}
+				"token": "wcBMA90FtVIhcznKAQgAsWe0vqmgxdw3mqTz4iDWJcQC7p3ggRrmDFel13+y+6vWWcH5Cc6DaQlB3cdp4ZTw71klwCTTcFIhbbAN5yTB46wjE8iWqyrWYzEIDhHIWsTyQmEDZU+Ajx7poTI43Lmu7+jQymcm/9Vvepc4JDJUY7eKgL18B5etBGci6CwoALa9NmZjShgoMD8/W6kn4/qErZt6WXX58vTgdhaQf9SVVuMG/UHqbtD0VVeviC+qDyaWLkAdZ8hLl71P7JMUtDJsaY1O/2Mc1NkpbKqleLN4ZaEPSDEOXregEWzs1aY9XNk1nBFrCcCbePq7wUEk+7TKLdU5s1buxhCuidm+ZeDeb9J3AWdNiWSpnEtimZzACNKOKmAtVs3xm+/K+YczJgKu58rNPobq6THWqK7n/2gt4xRxsTIbE1XqGN8YVVe30OzDUTwY2TLCYU/RCQvVe/nJvtw9qsVgp6jGROBf5Fd3Skst/zxghM0wz9Wwp6xwBtxHCRzgEFZCLco"
+		}
 		}
 	],
 	"remediateSettings": {
