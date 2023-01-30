@@ -17,8 +17,15 @@ repositories {
 }
 def prvtDepVer = "1.0.1"
 
-
+	//start
+            new File("${project.projectDir}/openapi.properties").withWriter { w ->
+                Properties p = new Properties()
+                p['micronaut.openapi.expand.title'] = project.name
+                p['micronaut.openapi.expand.version'] = project.version.toString()
+                p.store w, null
+            }
 	//end
+	
 dependencies {
         // private dependencies
     // This dependency is used by the application.
